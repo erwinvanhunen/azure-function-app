@@ -4,8 +4,7 @@
       "name": "triggerInput",
       "type": "queueTrigger",
       "direction": "in",
-      "queueName": "pnpspportalshowcase",
-      "connection": "AzureWebJobsDashboard"
+      "queueName": "pnpspportalshowcasequeue"
     }
   ],
   "disabled": false
