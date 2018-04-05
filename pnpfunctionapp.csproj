@@ -1,0 +1,277 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net461</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Sdk.Functions" Version="1.0.8" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="ApplyTemplate2/FlowDemoTemplate.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="ApplyTemplate2/function.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="ApplyTemplate2/modules/SharePointPnPPowerShellOnline/AngleSharp.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="ApplyTemplate2/modules/SharePointPnPPowerShellOnline/Microsoft.Data.Edm.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="ApplyTemplate2/modules/SharePointPnPPowerShellOnline/Microsoft.Data.OData.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="ApplyTemplate2/modules/SharePointPnPPowerShellOnline/Microsoft.Extensions.DependencyInjection.Abstractions.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="ApplyTemplate2/modules/SharePointPnPPowerShellOnline/Microsoft.Extensions.Options.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="ApplyTemplate2/modules/SharePointPnPPowerShellOnline/Microsoft.Extensions.Primitives.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="ApplyTemplate2/modules/SharePointPnPPowerShellOnline/Microsoft.Extensions.WebEncoders.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="ApplyTemplate2/modules/SharePointPnPPowerShellOnline/Microsoft.Graph.Core.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="ApplyTemplate2/modules/SharePointPnPPowerShellOnline/Microsoft.Graph.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="ApplyTemplate2/modules/SharePointPnPPowerShellOnline/Microsoft.Identity.Client.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="ApplyTemplate2/modules/SharePointPnPPowerShellOnline/Microsoft.Identity.Client.Platform.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="ApplyTemplate2/modules/SharePointPnPPowerShellOnline/Microsoft.IdentityModel.Clients.ActiveDirectory.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="ApplyTemplate2/modules/SharePointPnPPowerShellOnline/Microsoft.IdentityModel.Clients.ActiveDirectory.WindowsForms.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="ApplyTemplate2/modules/SharePointPnPPowerShellOnline/Microsoft.IdentityModel.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="ApplyTemplate2/modules/SharePointPnPPowerShellOnline/Microsoft.Office.Client.Policy.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="ApplyTemplate2/modules/SharePointPnPPowerShellOnline/Microsoft.Office.Client.TranslationServices.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="ApplyTemplate2/modules/SharePointPnPPowerShellOnline/Microsoft.Online.SharePoint.Client.Tenant.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="ApplyTemplate2/modules/SharePointPnPPowerShellOnline/Microsoft.SharePoint.Client.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="ApplyTemplate2/modules/SharePointPnPPowerShellOnline/Microsoft.SharePoint.Client.DocumentManagement.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="ApplyTemplate2/modules/SharePointPnPPowerShellOnline/Microsoft.SharePoint.Client.Publishing.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="ApplyTemplate2/modules/SharePointPnPPowerShellOnline/Microsoft.SharePoint.Client.Runtime.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="ApplyTemplate2/modules/SharePointPnPPowerShellOnline/Microsoft.SharePoint.Client.Search.Applications.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="ApplyTemplate2/modules/SharePointPnPPowerShellOnline/Microsoft.SharePoint.Client.Search.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="ApplyTemplate2/modules/SharePointPnPPowerShellOnline/Microsoft.SharePoint.Client.Taxonomy.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="ApplyTemplate2/modules/SharePointPnPPowerShellOnline/Microsoft.SharePoint.Client.UserProfiles.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="ApplyTemplate2/modules/SharePointPnPPowerShellOnline/Microsoft.SharePoint.Client.WorkflowServices.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="ApplyTemplate2/modules/SharePointPnPPowerShellOnline/Microsoft.WindowsAzure.Storage.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="ApplyTemplate2/modules/SharePointPnPPowerShellOnline/Newtonsoft.Json.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="ApplyTemplate2/modules/SharePointPnPPowerShellOnline/OfficeDevPnP.Core.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="ApplyTemplate2/modules/SharePointPnPPowerShellOnline/pnp.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="ApplyTemplate2/modules/SharePointPnPPowerShellOnline/PSGetModuleInfo.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="ApplyTemplate2/modules/SharePointPnPPowerShellOnline/SharePointPnP.IdentityModel.Extensions.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="ApplyTemplate2/modules/SharePointPnPPowerShellOnline/SharePointPnP.PowerShell.CmdletHelpAttributes.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="ApplyTemplate2/modules/SharePointPnPPowerShellOnline/SharePointPnP.PowerShell.Online.Commands.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="ApplyTemplate2/modules/SharePointPnPPowerShellOnline/SharePointPnP.PowerShell.Online.Commands.dll-help.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="ApplyTemplate2/modules/SharePointPnPPowerShellOnline/SharePointPnP.PowerShell.Online.Commands.Format.ps1xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="ApplyTemplate2/modules/SharePointPnPPowerShellOnline/SharePointPnPPowerShellOnline.psd1">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="ApplyTemplate2/modules/SharePointPnPPowerShellOnline/System.IdentityModel.Tokens.Jwt.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="ApplyTemplate2/modules/SharePointPnPPowerShellOnline/System.Net.Http.Formatting.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="ApplyTemplate2/modules/SharePointPnPPowerShellOnline/System.Text.Encodings.Web.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="ApplyTemplate2/modules/SharePointPnPPowerShellOnline/System.Web.Http.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="ApplyTemplate2/run.ps1">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="CreateSite/function.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="CreateSite/modules/SharePointPnPPowerShellOnline/AngleSharp.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="CreateSite/modules/SharePointPnPPowerShellOnline/Microsoft.Data.Edm.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="CreateSite/modules/SharePointPnPPowerShellOnline/Microsoft.Data.OData.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="CreateSite/modules/SharePointPnPPowerShellOnline/Microsoft.Extensions.DependencyInjection.Abstractions.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="CreateSite/modules/SharePointPnPPowerShellOnline/Microsoft.Extensions.Options.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="CreateSite/modules/SharePointPnPPowerShellOnline/Microsoft.Extensions.Primitives.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="CreateSite/modules/SharePointPnPPowerShellOnline/Microsoft.Extensions.WebEncoders.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="CreateSite/modules/SharePointPnPPowerShellOnline/Microsoft.Graph.Core.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="CreateSite/modules/SharePointPnPPowerShellOnline/Microsoft.Graph.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="CreateSite/modules/SharePointPnPPowerShellOnline/Microsoft.Identity.Client.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="CreateSite/modules/SharePointPnPPowerShellOnline/Microsoft.Identity.Client.Platform.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="CreateSite/modules/SharePointPnPPowerShellOnline/Microsoft.IdentityModel.Clients.ActiveDirectory.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="CreateSite/modules/SharePointPnPPowerShellOnline/Microsoft.IdentityModel.Clients.ActiveDirectory.WindowsForms.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="CreateSite/modules/SharePointPnPPowerShellOnline/Microsoft.IdentityModel.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="CreateSite/modules/SharePointPnPPowerShellOnline/Microsoft.Office.Client.Policy.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="CreateSite/modules/SharePointPnPPowerShellOnline/Microsoft.Office.Client.TranslationServices.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="CreateSite/modules/SharePointPnPPowerShellOnline/Microsoft.Online.SharePoint.Client.Tenant.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="CreateSite/modules/SharePointPnPPowerShellOnline/Microsoft.SharePoint.Client.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="CreateSite/modules/SharePointPnPPowerShellOnline/Microsoft.SharePoint.Client.DocumentManagement.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="CreateSite/modules/SharePointPnPPowerShellOnline/Microsoft.SharePoint.Client.Publishing.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="CreateSite/modules/SharePointPnPPowerShellOnline/Microsoft.SharePoint.Client.Runtime.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="CreateSite/modules/SharePointPnPPowerShellOnline/Microsoft.SharePoint.Client.Search.Applications.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="CreateSite/modules/SharePointPnPPowerShellOnline/Microsoft.SharePoint.Client.Search.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="CreateSite/modules/SharePointPnPPowerShellOnline/Microsoft.SharePoint.Client.Taxonomy.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="CreateSite/modules/SharePointPnPPowerShellOnline/Microsoft.SharePoint.Client.UserProfiles.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="CreateSite/modules/SharePointPnPPowerShellOnline/Microsoft.SharePoint.Client.WorkflowServices.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="CreateSite/modules/SharePointPnPPowerShellOnline/Microsoft.WindowsAzure.Storage.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="CreateSite/modules/SharePointPnPPowerShellOnline/Newtonsoft.Json.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="CreateSite/modules/SharePointPnPPowerShellOnline/OfficeDevPnP.Core.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="CreateSite/modules/SharePointPnPPowerShellOnline/pnp.ico">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="CreateSite/modules/SharePointPnPPowerShellOnline/PSGetModuleInfo.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="CreateSite/modules/SharePointPnPPowerShellOnline/SharePointPnP.IdentityModel.Extensions.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="CreateSite/modules/SharePointPnPPowerShellOnline/SharePointPnP.PowerShell.CmdletHelpAttributes.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="CreateSite/modules/SharePointPnPPowerShellOnline/SharePointPnP.PowerShell.Online.Commands.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="CreateSite/modules/SharePointPnPPowerShellOnline/SharePointPnP.PowerShell.Online.Commands.dll-help.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="CreateSite/modules/SharePointPnPPowerShellOnline/SharePointPnP.PowerShell.Online.Commands.Format.ps1xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="CreateSite/modules/SharePointPnPPowerShellOnline/SharePointPnPPowerShellOnline.psd1">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="CreateSite/modules/SharePointPnPPowerShellOnline/System.IdentityModel.Tokens.Jwt.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="CreateSite/modules/SharePointPnPPowerShellOnline/System.Net.Http.Formatting.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="CreateSite/modules/SharePointPnPPowerShellOnline/System.Text.Encodings.Web.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="CreateSite/modules/SharePointPnPPowerShellOnline/System.Web.Http.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="CreateSite/run.ps1">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="host.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+</Project>
